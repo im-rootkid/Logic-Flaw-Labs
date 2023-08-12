@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Type Juggling Vulnerability Demo</title>
+    <style>
+        body {
+            background-color: #333333;
+            color: #CCCCCC;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #666666;
+            color: #CCCCCC;
+        }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #000000;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="align-items: center; padding-top: 20%;"></div>
+    <h1>Type Juggling Vulnerability Demo</h1>
+    <form method="POST" action="login.php">
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" required><br> 
+        <p></p>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
