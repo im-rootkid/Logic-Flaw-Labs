@@ -1,4 +1,4 @@
-![Poster](https://rootkid.in/img/banner-logo-black.png)
+![Poster](https://rootkid.in/img/logo.png)
 
 # Logic-Flaw-Labs
 
